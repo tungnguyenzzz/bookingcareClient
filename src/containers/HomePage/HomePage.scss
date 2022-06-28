@@ -1,0 +1,132 @@
+.slick-prev {
+    background-color: orange !important;
+    // position: relative !important;
+    left: -10 !important;
+    z-index: 1000 !important;
+    width: 40px !important;
+    height: 40px !important;
+    background-color: rgb(47, 184, 226) !important ;
+}
+.slick-prev:before {
+    font-family: FontAwesome !important;
+    // content: "\e258" !important;
+}
+.slick-next {
+    background-color: rgb(47, 184, 226) !important;
+    z-index: 1000 !important;
+    right: -5 !important;
+    width: 40px !important;
+    height: 40px !important;
+}
+.slick-next:before {
+    font-family: FontAwesome !important;
+    // content: "\e258" !important;
+}
+.slick-disabled {
+    display: none !important;
+}
+
+.section-share {
+    &.section-specialty {
+        background: #f5f5f5;
+    }
+    &.section-outstandingdoctor {
+        background: #f5f5f5;
+    }
+
+    &.section-about {
+        border: 1px solid red;
+    }
+    .section-body {
+        margin-top: 30px;
+        .section-customize {
+            cursor: pointer;
+            .bg-image {
+                height: 150px;
+                width: 278px;
+                background-position: center center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-color: #eee;
+
+                &.section-specialty {
+                    background: url(https://cdn.bookingcare.vn/fr/w300/2019/12/13/120331-co-xuong-khop.jpg);
+                }
+                &.section-medical-facility {
+                    background: url(https://cdn.bookingcare.vn/fr/w500/2020/05/29/112414-pk-dhyd1.jpg);
+                    height: 150px !important;
+                    width: 278px !important;
+                    background-size: cover;
+                    background-position: center center;
+                    background-repeat: no-repeat;
+                }
+                &.section-outstandingdoctor {
+                    // background: url(https://cdn.bookingcare.vn/fr/w200/2017/08/09/142120giao-su-dao-van-long-2.jpg);
+                    height: 120px !important;
+                    width: 120px !important;
+                    background-size: cover;
+                    background-position: center center;
+                    background-repeat: no-repeat;
+                    border-radius: 50%;
+                }
+                &.section-handbook {
+                    background: url(https://cdn.bookingcare.vn/fr/w300/2021/05/10/155638-kham-gan-mat-ha-noi.jpg);
+                }
+            }
+        }
+    }
+}
+.section-share {
+    height: 330px;
+
+    margin-top: 30px;
+
+    .section-container {
+        margin: 0 150px;
+        display: flex;
+        flex-direction: column;
+        .section-header {
+            height: 60px;
+
+            margin-top: 20px;
+            padding-top: 20px;
+            .title-sextion {
+                font-size: 22px;
+                font-weight: 600;
+            }
+            .btn-section {
+                float: right;
+                padding: 10px 15px;
+                border: none;
+                outline: none;
+                display: block;
+                background-color: yellow;
+                color: black;
+                cursor: pointer;
+                &:hover {
+                    color: #fff;
+                    background: #f7d800;
+                }
+            }
+        }
+    }
+    .img-customize {
+        width: 350px !important;
+    }
+}
+
+.section-outstanding-doctor {
+    .outer-bg {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+}
+
+.home-footer {
+    text-align: center;
+    padding-top: 10px;
+    a {
+        text-decoration: underline;
+    }
+}

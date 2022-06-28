@@ -1,0 +1,48 @@
+{
+    "homeheader": {
+        "speciality": "Medical specialty",
+        "searchdoctor": "Find a doctor by specialty",
+        "health-facility": "Health facilities",
+        "select-room": "Choose hospital clinic",
+        "doctor": "Doctor",
+        "select-doctor": "Choose a good doctor",
+        "fee": "Other packages",
+        "check-helth": "General health check",
+        "support": "Support",
+        "welcome": "Welcome, "
+    },
+    "banner": {
+        "title1": "MEDICAL BACKGROUND",
+        "title2": "COMPREHENSIVE HEALTH CARE",
+        "child1": "Specialist Examination",
+        "child2": "Remote Examination",
+        "child3": "Medical Test",
+        "child4": "Mental health",
+        "child5": "General Examination",
+        "child6": "Dental Examination"
+    },
+    "menu": {
+        "admin": {
+            "manage-user": "Users",
+            "manage-doctor": "Manage doctors",
+            "manage-admin": "Manage admin",
+            "crud": "CRUD user",
+            "crud-redux": "CRUD redux",
+            "manage-clinic": "Manage clinic",
+            "clinic": "Clinic",
+            "specialty": "Specialty",
+            "manage-specialty": "Manage specialty",
+            "handbook": "Handbook",
+            "manage-handbook": "Manage handbook"
+        },
+        "doctor": {
+            "manage-schedule": "Manage Doctor Schedule"
+        }
+    },
+    "manage-user": {
+        "add": "Add User"
+    },
+    "manage-schedule": {
+        "title": "Manage doctor examination plan"
+    }
+}
